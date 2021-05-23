@@ -23,8 +23,8 @@ const routes = [
 ];
 
 const router = new VueRouter({
-  mode: 'hash',
-  base: process.env.BASE_URL,
+  mode: "hash",
+  base: "todo/all",
   routes
 });
 
