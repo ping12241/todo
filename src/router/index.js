@@ -16,10 +16,6 @@ const routes = [
     path: "/complete",
     name: "complete"
   },
-  {
-    path: "*",
-    redirect: "/all"
-  }
 ];
 
 const router = new VueRouter({
